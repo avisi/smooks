@@ -1,6 +1,6 @@
-# Smooks Framework
+# Smooks Framework - with patches for Avisi
 
-[Smooks][1] Framework - with patches for Avisi.
+[Smooks][1] Framework.
 
 To build:
 
