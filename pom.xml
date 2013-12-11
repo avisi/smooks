@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.codehaus</groupId>
-        <artifactId>codehaus-parent</artifactId>
-        <version>4</version>
+        <groupId>nl.avisi</groupId>
+        <artifactId>avisi-parent-pom</artifactId>
+        <version>RELEASE</version>
     </parent>
 
     <groupId>org.milyn</groupId>
