@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.milyn</groupId>
         <artifactId>milyn</artifactId>
-        <version>1.6-patched-by-avisi</version> <!-- base pom version - do not remove this comment -->
+        <version>1.7-patched-by-avisi</version> <!-- base pom version - do not remove this comment -->
     </parent>
     <name>Milyn Smooks All</name>
 	<artifactId>milyn-smooks-all</artifactId>
@@ -395,8 +395,8 @@
 						<Import-Package>
 							org.osgi.framework,
 							org.jaxen.*;version="1.1.1", 
-							org.apache.commons.*, 
-							freemarker.*;version="${spring.freemarker.version}",
+							org.apache.commons.*;resolution:="optional",
+							freemarker.*;version="${spring.freemarker.version}";resolution:="optional",
 							groovy.xml;version="${spring.groovy.version}",
 							groovy.xml.dom;version="${spring.groovy.version}",
 							org.codehaus.groovy.*;version="${spring.groovy.version}",
